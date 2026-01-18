@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+height: 100em;
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#item{
+height:57%;
+background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width:25%;
+border-radius: 10px;
+box-shadow: 5px 5px 15px 5px black;
+display: flex;
+flex-direction: column;
+/* justify-content: space-between; */
+align-items: center;
+gap: 3em;
+}
+
+#item1{
+    height:35%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#item2{
+    font-weight: 220px;
+    font-size:30px;
+}
+#item3{
+    font-weight: 120px;
+    font-size:27px;
+    text-align: center;
+    width: 80%;
+}
+#item4{
+    height:3.5em;
+    width: 20em;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:3.7em;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:1.5em;
+    border-radius: 10px;
+}
+#item4 img{
+   height:3em; 
+}
+#one{
+  display: flex;
+  align-items: center;
+}  
+#two{
+    color:#E9E4F0
+}
+#item5{
+    display: flex;
+    height:2.5em;
+    padding:1.5em;;
+    justify-content: center;
+    align-items: center;
+    width:18em;
+    border-radius: 10px;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 1s linear 0.5s;
+    box-shadow: 5px 5px 20px 5px black;
+}
+
+#item5:hover{
+    transform: scale(1.2);
+}
+
+#item5 a{
+    color: #E9E4F0;
+    text-decoration: none;
+}
+#item6 a{
+    font-weight: 40em;
+    font-size:30px;
+    text-decoration: none;
+    color: black;
+}
