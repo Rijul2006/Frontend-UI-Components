@@ -1,8 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head><title>My UI Portfolio</title></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rijul Chaturvedi | UI Portfolio</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; background-color: #f4f7f6; color: #333; }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        p { margin-bottom: 30px; color: #7f8c8d; }
+        .container { display: flex; gap: 20px; }
+        .card-link { text-decoration: none; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease; border: 2px solid transparent; width: 200px; text-align: center; }
+        .card-link:hover { transform: translateY(-10px); border-color: #3498db; }
+        .card-link h3 { margin: 10px 0; color: #2980b9; }
+        .card-link span { font-size: 0.9rem; color: #95a5a6; }
+    </style>
+</head>
 <body>
-    <h1>Welcome to my Frontend UI Lab</h1>
-    <p>Please use the links in the README to view my components.</p>
+
+    <h1>Frontend UI Component Lab</h1>
+    <p>Academic Excellence & Technical Precision (9.8 CGPA)</p>
+
+    <div class="container">
+        <a href="./order-summary-card/" class="card-link">
+            <h3>🛒 Order Summary</h3>
+            <span>Interactive Payment Card</span>
+        </a>
+
+        <a href="./qr-code-component/" class="card-link">
+            <h3>📱 QR Code Card</h3>
+            <span>Pixel-Perfect Layout</span>
+        </a>
+    </div>
+
 </body>
 </html>
