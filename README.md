@@ -4,11 +4,11 @@ A curated collection of high-fidelity UI components built with a focus on CSS ar
 
 ##  Live Components
 
-### 1. [View Order Summary Card](https://rijul2006.github.io/Frontend-UI-Components/order-summary-card/) 
+### 1. Order Summary Card
 A multi-section UI component featuring a graphical header, descriptive body text, and interactive action buttons.
 - **Key Features:** Custom CSS Box-Shadows and hover states for visual depth.
 
-### 2. [View QR Code Component](https://rijul2006.github.io/Frontend-UI-Components//qr-code-component/)
+### 2. QR Code Component
 A pixel-perfect, centered card layout designed for mobile-first accessibility.
 - **Key Features:** Precise vertical and horizontal alignment using Flexbox.
 
